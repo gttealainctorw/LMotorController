@@ -22,21 +22,27 @@ Arduino library for controlling dual DC motors via an **L298N** motor driver mod
 
 ## Installation
 
-### Opción A — Desde GitHub (manual)
+### Option A — From GitHub (Manual Install)
 
-1. En este repositorio click en el botón verde **"Code"** → **"Download ZIP"**
-2. Abre el Arduino IDE
-3. Ve a **Sketch** → **Include Library** → **Add .ZIP Library...**
-4. Selecciona el ZIP descargado
-5. Listo, ya puedes usar `#include <LMotorController.h>`
+1. In this repository, click the green **Code** button → **Download ZIP**
+2. Open the **Arduino IDE**
+3. Go to **Sketch → Include Library → Add .ZIP Library...**
+4. Select the downloaded ZIP file
+5. Done! You can now use:
 
-### Opción B — Manual (copiar carpeta)
+    #include <LMotorController.h>
 
-1. Descarga o clona este repositorio
-2. Copia la carpeta `LMotorController` a tu directorio de librerías de Arduino:
-   - Windows: `Documents/Arduino/libraries/`
-   - Linux/Mac: `~/Arduino/libraries/`
-3. Reinicia el Arduino IDE
+---
+
+### Option B — Manual Installation (Copy Folder)
+
+1. Download or clone this repository
+2. Copy the **LMotorController** folder into your Arduino libraries directory:
+
+   - **Windows:** Documents/Arduino/libraries/
+   - **Linux / macOS:** ~/Arduino/libraries/
+
+3. Restart the **Arduino IDE**
 
 ## Usage
 
