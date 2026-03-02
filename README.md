@@ -79,14 +79,6 @@ motors.stopMoving();
 | `speed`       | PID output value (-255 to 255). Positive = forward, Negative = backward |
 | `minAbsSpeed` | Minimum absolute speed. Motors stop if `abs(speed) < minAbsSpeed` |
 
-## Self-Balancing Robot Example
-
-See [`examples/SelfBalancingRobot/`](examples/SelfBalancingRobot/SelfBalancingRobot.ino)
-
-Required libraries for the example:
-- [PID_v1](https://github.com/br3ttb/Arduino-PID-Library) — Brett Beauregard
-- [i2cdevlib (MPU6050 + I2Cdev)](https://github.com/jrowberg/i2cdevlib) — Jeff Rowberg
-
 ## License
 
 MIT License — free to use, modify and distribute.
